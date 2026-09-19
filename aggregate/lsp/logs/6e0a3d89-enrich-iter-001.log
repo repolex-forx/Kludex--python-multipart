@@ -1,0 +1,15 @@
+[2026-09-19T13:01:27Z] === ENRICH ITERATION 1 START | repo=Kludex/python-multipart sha=6e0a3d89 ===
+[2026-09-19T13:01:27Z] [iter=1] PHASE START: enrich repo=Kludex/python-multipart sha=6e0a3d89 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6e0a3d89-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6e0a3d89ab78e64356ce7b1eaac4a8993cab39e4.nq.gz
+[2026-09-19T13:01:27Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-19T13:01:28Z] [iter=1] AST store loaded triples=135434 load_secs=1 mem_mb=277 MB
+[2026-09-19T13:01:28Z] [iter=1] Step 2: Finding LSP targets mem_mb=277 MB
+[2026-09-19T13:01:28Z] [iter=1] LSP targets found call_sites=971 imports=0 extends=0 implements=0 secs=0
+[2026-09-19T13:01:28Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=277 MB
+[2026-09-19T13:01:29Z] [iter=1] Position index built positions=9160 nodes_with_types=11827 secs=1 mem_mb=277 MB
+[2026-09-19T13:01:29Z] [iter=1] Step 3: Starting LSP resolution mem_mb=277 MB already_completed_types=[] already_completed_files=0
+[2026-09-19T13:01:29Z] [iter=1] Resolving target type target_type=call_site count=971
+[2026-09-19T13:02:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=3 resolved=464 errors=368 current=noxfile.py
+[2026-09-19T13:02:03Z] [iter=1] Target type resolved target_type=call_site resolved=502 errors=398 secs=34 mem_mb=277 MB
+[2026-09-19T13:02:05Z] [iter=1] Step 5: Writing final enrichment file triples=9382
+[2026-09-19T13:02:06Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6e0a3d89ab78e64356ce7b1eaac4a8993cab39e4.nq.gz size_kb=157
+[2026-09-19T13:02:06Z] [iter=1] PHASE END: enrich elapsed_s=39 elapsed_min=0.6 total_triples=9382
