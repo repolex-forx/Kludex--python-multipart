@@ -40,25 +40,33 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── ast
 │   │   ├── b7cc76dbb30d647c0eb7288221d08a6520317b7a
 │   │   │   └── chunk-001.nq.gz
+│   │   ├── bea7bbb2904da8ce39123a845088dc72464eaddf
+│   │   │   └── chunk-001.nq.gz
 │   │   └── e59b6b7b60e9993ead149a15a2ec4db73453fe0a
 │   │       └── chunk-001.nq.gz
 │   ├── lsp
 │   │   ├── b7cc76dbb30d647c0eb7288221d08a6520317b7a.nq.gz
+│   │   ├── bea7bbb2904da8ce39123a845088dc72464eaddf.nq.gz
 │   │   └── e59b6b7b60e9993ead149a15a2ec4db73453fe0a.nq.gz
 │   └── repolex
 │       ├── b7cc76dbb30d647c0eb7288221d08a6520317b7a
 │       │   └── chunk-001.nq.gz
+│       ├── bea7bbb2904da8ce39123a845088dc72464eaddf
+│       │   └── chunk-001.nq.gz
 │       └── e59b6b7b60e9993ead149a15a2ec4db73453fe0a
 │           └── chunk-001.nq.gz
 ├── blob
+│   ├── 09691a30bdb3ba1090ec543ed562ff916134b920.nq.gz
 │   ├── 09c08fe056c4f5ceaf9617f9a31fe37ba81474ba.nq.gz
 │   ├── 0b8e594aaec1ad8829d1bf87fcd3490bed9eb80e.nq.gz
 │   ├── 0c81daef83de66cd18eeb9c104e08427695efb76.nq.gz
 │   ├── 0cc251d512eccaecedae6bd308190a8bf543507c.nq.gz
 │   ├── 0e0db6523c3f09e64ff6ce8b16fba0881d958e0b.nq.gz
+│   ├── 0f1e87f4392c670d7903c82ec45e6429337b87bc.nq.gz
 │   ├── 10331505a3b311dad002b8325f20059c50e8b061.nq.gz
 │   ├── 13fe6fb0a00544184afab3403707e01cd965d186.nq.gz
 │   ├── 141731f5739d1f98cc8700a02216382bb20224ea.nq.gz
+│   ├── 1489b7afd55dc1d926fd24ad8d4ac5463e0865a9.nq.gz
 │   ├── 17133c91464f4016a1a7f35b629aaf78fd732905.nq.gz
 │   ├── 1c80c489f49e43813f43dbd32fb1421f2d09b915.nq.gz
 │   ├── 1d9fd4dc080b9653431a3e2b3e646c36c90722b4.nq.gz
@@ -92,14 +100,17 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 507ba2ce09b373d62fd62e3c6a186f2440a12f57.nq.gz
 │   ├── 515f4af746c58260313f2286816307a937f50dc7.nq.gz
 │   ├── 543c299d9b31c13c313a58071b8d375123dade33.nq.gz
+│   ├── 55c9a802e9174711ae4ea58c060b06617d196f8e.nq.gz
 │   ├── 574ed4c24806008b8a973833e1518188cd3f496c.nq.gz
 │   ├── 591718521438f19563bc031de626e1aecfece2cf.nq.gz
 │   ├── 5a118409520813b083045416201e0feabb3043ae.nq.gz
 │   ├── 5a61d836610e017e2114d37e78c7c3329f02fae8.nq.gz
 │   ├── 5d59788309257daec3bbd4e3809c5df9fc52cdc5.nq.gz
 │   ├── 5fc1ec07a7ae63ae6c53e6880a0a9ba9eac73ed5.nq.gz
+│   ├── 67f0e5bb403eb5b05821d846190b7b8ea482cc37.nq.gz
 │   ├── 6a0076654c19500d59fb94d6a29ea3d22e04c9d0.nq.gz
 │   ├── 7346e0321c217b852ed171fb442c4234e1292eef.nq.gz
+│   ├── 7348c210221ff4c3a6ba816e2b0865ef139759c3.nq.gz
 │   ├── 759bd102114a75acac5195d7ca5399ce6f6a1227.nq.gz
 │   ├── 7690f0860208a7376a8164e304b6b4b943f0b18f.nq.gz
 │   ├── 786b75d5a3f6e67decc00ace643d640ba1afe675.nq.gz
@@ -130,11 +141,14 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── ab339408ecd404e0613193c81369af98cc0b8c9b.nq.gz
 │   ├── ab4977b2c0a3658bbd982228d46fd4da0d921cce.nq.gz
 │   ├── ae920bf01604a5dd06ecf3cf6c133cc9a3717d2f.nq.gz
+│   ├── b13733144abb051f9b7088511ae03d76c91449b0.nq.gz
+│   ├── b45190efd8dae23bf7181de1390b0a3b50bfbc0b.nq.gz
 │   ├── baff7d52586e8f664e786d3b3666b3b37b0bd9e2.nq.gz
 │   ├── c1cab6eecd986cfcd61939f7287605c1068ded9a.nq.gz
 │   ├── c4488099481499d8832996888259587997e198ec.nq.gz
 │   ├── c4cdfb6694e6feac9e13bdfdec4b803131fdcf5d.nq.gz
 │   ├── c83bf51a35a5599abeb22054e93a40e73e6993cf.nq.gz
+│   ├── c84bb9954b901649c2b80cdd027020e7bb2c73dd.nq.gz
 │   ├── cb2c2d6a8969deaac82eacb234ab864091533d79.nq.gz
 │   ├── cc3671f518dd1768a968b8ceb09b286d17840a7e.nq.gz
 │   ├── cf07f01dbc06652cd23fd66efbc4f3bfdd2eb362.nq.gz
@@ -157,6 +171,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── commit.nq.gz
 ├── filetree
 │   ├── b7cc76dbb30d647c0eb7288221d08a6520317b7a.nq.gz
+│   ├── bea7bbb2904da8ce39123a845088dc72464eaddf.nq.gz
 │   └── e59b6b7b60e9993ead149a15a2ec4db73453fe0a.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -165,7 +180,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-16 directories, 113 files
+18 directories, 126 files
 ```
 
 | Directory | What it contains |
