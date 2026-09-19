@@ -1,0 +1,15 @@
+[2026-09-19T17:32:07Z] === ENRICH ITERATION 1 START | repo=Kludex/python-multipart sha=f1a275e7 ===
+[2026-09-19T17:32:07Z] [iter=1] PHASE START: enrich repo=Kludex/python-multipart sha=f1a275e7 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/f1a275e7-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/f1a275e73763d16a9dba45e2bd568860302786bd.nq.gz
+[2026-09-19T17:32:15Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-19T17:32:16Z] [iter=1] AST store loaded triples=127296 load_secs=1 mem_mb=272 MB
+[2026-09-19T17:32:16Z] [iter=1] Step 2: Finding LSP targets mem_mb=272 MB
+[2026-09-19T17:32:16Z] [iter=1] LSP targets found call_sites=918 imports=0 extends=0 implements=0 secs=0
+[2026-09-19T17:32:17Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=272 MB
+[2026-09-19T17:32:17Z] [iter=1] Position index built positions=8966 nodes_with_types=11497 secs=1 mem_mb=272 MB
+[2026-09-19T17:32:17Z] [iter=1] Step 3: Starting LSP resolution mem_mb=272 MB already_completed_types=[] already_completed_files=0
+[2026-09-19T17:32:17Z] [iter=1] Resolving target type target_type=call_site count=918
+[2026-09-19T17:32:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=2 resolved=409 errors=348 current=multipart/decoders.py
+[2026-09-19T17:32:53Z] [iter=1] Target type resolved target_type=call_site resolved=490 errors=354 secs=36 mem_mb=272 MB
+[2026-09-19T17:32:55Z] [iter=1] Step 5: Writing final enrichment file triples=8906
+[2026-09-19T17:32:55Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/f1a275e73763d16a9dba45e2bd568860302786bd.nq.gz size_kb=148
+[2026-09-19T17:32:55Z] [iter=1] PHASE END: enrich elapsed_s=48 elapsed_min=0.8 total_triples=8906
